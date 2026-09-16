@@ -5,7 +5,7 @@ import uuid
 app = FastAPI(title="Advanced Chess API")
 
 games = {}
-
+# new version
 
 @app.post("/game")
 def create_game():
